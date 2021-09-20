@@ -1,5 +1,9 @@
-import StudentClass as s 
+import StudentClass as s
 
-lauren = s.Student('892483884','Lauren', (2000,8,3),'Sr')
+lauren = s.Student('892483884', 'Lauren', '08/03/2000', 'Sr')
 
-print(lauren.register())
+lauren.register()
+print(lauren.get_register())
+
+lauren.age()
+print(lauren.get_age())
